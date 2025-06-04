@@ -33,29 +33,29 @@
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "University of Cambridge",
+      "area": "Ph.D in Radiology",
       "studyType": "",
       "startDate": "",
-      "endDate": "2018",
+      "endDate": "2025",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "University of Oxford",
+      "area": "M.Sc. in Radiation Biology",
       "studyType": "",
       "startDate": "",
-      "endDate": "2014",
+      "endDate": "2020",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
+      "institution": "University College London",
+      "area": "B.Eng. in Biomedical Engineering",
       "studyType": "",
       "startDate": "",
-      "endDate": "2012",
+      "endDate": "2016",
       "gpa": null,
       "courses": []
     }
