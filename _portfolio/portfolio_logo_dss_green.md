@@ -1,6 +1,6 @@
 ---
 title: "🎨 Logo design for DSS Green Team, Ministry of Health"
-excerpt: "Earlier this year, I was tapped to create a logo for the newly-established Department of Scientific Services Green Team under Brunei’s Ministry of Health! [Read more here](/portfolio/portfolio_logo_dss_green). <br/><img src='/images/portfolio_dss_green.png'>"
+excerpt: "Earlier this year, I was tapped to create a logo for the newly-established Department of Scientific Services Green Team under Brunei’s Ministry of Health! [Read more here](/portfolio/portfolio_logo_dss_green). <br/><img src='../images/portfolio_dss_green.png'>"
 collection: portfolio
 ---
 

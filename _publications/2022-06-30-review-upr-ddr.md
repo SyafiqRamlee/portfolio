@@ -27,7 +27,7 @@ Authors: Hannah Bolland, Tiffany Ma, Syafiq Ramlee, Kristijan Ramadan, & Ester H
 ⚙️ The UPR and DDR pathways
 ------
 
-<img src='/images/UPRDDRreview_Fig1.png'>
+<img src='../images/UPRDDRreview_Fig1.png'>
 
 
 📝 Abstract

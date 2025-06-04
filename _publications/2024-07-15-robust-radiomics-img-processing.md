@@ -28,7 +28,7 @@ Authors: Syafiq Ramlee, Roido Manavaki, Luigi Aloj, & Lorena Escudero Sanchez.
 ⚙️ Study schema
 ------
 
-<img src='/images/PerturbationStudy_Fig1.png'>
+<img src='../images/PerturbationStudy_Fig1.png'>
 
 
 📝 Abstract
