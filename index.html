@@ -18,6 +18,16 @@
 .kw-cyan{color:var(--cyan);border-color:rgba(0,210,175,.25);background:rgba(0,210,175,.07)}
 .kw-blue{color:var(--blue);border-color:rgba(74,144,217,.25);background:rgba(74,144,217,.07)}
 .kw-amber{color:var(--amber);border-color:rgba(232,168,56,.25);background:rgba(232,168,56,.07)}
+
+.timeline{position:relative;padding-left:1.5rem}
+.timeline::before{content:'';position:absolute;left:6px;top:8px;bottom:0;width:1.5px;background:linear-gradient(to bottom,var(--cyan),rgba(0,210,175,.1))}
+.tl-item{position:relative;display:grid;grid-template-columns:auto 72px 1fr;gap:.75rem;align-items:start;padding-bottom:2rem}
+.tl-item.last{padding-bottom:0}
+.tl-dot{width:13px;height:13px;border-radius:50%;border:2px solid var(--border2);background:var(--bg);margin-top:4px;flex-shrink:0;transition:all .2s}
+.tl-dot.current{border-color:var(--cyan);background:var(--cyan);box-shadow:0 0 8px rgba(0,210,175,.4)}
+.tl-year{font-family:var(--mono);font-size:.6rem;color:var(--text3);letter-spacing:.05em;padding-top:2px;white-space:nowrap}
+.tl-role{font-size:.92rem;color:var(--text);font-weight:500;margin-bottom:.2rem}
+.tl-org{font-family:var(--mono);font-size:.62rem;color:var(--cyan);letter-spacing:.05em}
 .hero-bio{font-size:.95rem;font-weight:300;color:var(--text2);max-width:46ch;line-height:1.75;margin-bottom:2rem}
 .hbtns{display:flex;gap:.65rem;flex-wrap:wrap;margin-bottom:3.5rem}
 .hstats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border);border:1px solid var(--border);max-width:400px}
@@ -109,10 +119,10 @@
   <div class="hl">
     <div class="status rv">
       <span class="gd"></span>
-      <span class="stxt">Biography</span>
+      <span class="stxt">Public Health Officer, Brunei Darussalam 🇧🇳</span>
     </div>
     <div class="hi-line rv d1">Hi. I'm <strong>Aiman Syafiq!</strong></div>
-    <p class="hero-bio rv d1">I'm 27, Bruneian, fresh out of a PhD at Cambridge, and now a Public Health Officer at the Ministry of Health, Brunei Darussalam.</p>
+    <p class="hero-bio rv d1">I'm 27, Bruneian, fresh out of a PhD at Cambridge, and now working in the public health sector.</p>
     <div class="tagline rv d2">I research,<br>I create, and<br>I care about health.</div>
     <div class="keywords rv d3">
       <span class="kw kw-cyan">Public Health</span>
@@ -148,22 +158,38 @@
     </div>
     <div class="rv d2">
       <div class="lbl">Education &amp; work</div>
-      <div class="edu">
-        <div class="er">
-          <div class="ey">2026–now</div>
-          <div><div class="ed">Public Health Officer</div><div class="eu">Ministry of Health, Brunei Darussalam</div></div>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-dot current"></div>
+          <div class="tl-year">2026–now</div>
+          <div class="tl-content">
+            <div class="tl-role">Public Health Officer</div>
+            <div class="tl-org">Ministry of Health, Brunei Darussalam</div>
+          </div>
         </div>
-        <div class="er">
-          <div class="ey">2021–2025</div>
-          <div><div class="ed">PhD in Radiology (Science)</div><div class="eu">University of Cambridge, United Kingdom</div></div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2021–2025</div>
+          <div class="tl-content">
+            <div class="tl-role">PhD in Radiology (Science)</div>
+            <div class="tl-org">University of Cambridge, United Kingdom</div>
+          </div>
         </div>
-        <div class="er">
-          <div class="ey">2019–2020</div>
-          <div><div class="ed">MSc in Radiation Biology</div><div class="eu">University of Oxford, United Kingdom</div></div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2019–2020</div>
+          <div class="tl-content">
+            <div class="tl-role">MSc in Radiation Biology</div>
+            <div class="tl-org">University of Oxford, United Kingdom</div>
+          </div>
         </div>
-        <div class="er">
-          <div class="ey">2016–2019</div>
-          <div><div class="ed">BEng in Biomedical Engineering</div><div class="eu">University College London, United Kingdom</div></div>
+        <div class="tl-item last">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2016–2019</div>
+          <div class="tl-content">
+            <div class="tl-role">BEng in Biomedical Engineering</div>
+            <div class="tl-org">University College London, United Kingdom</div>
+          </div>
         </div>
       </div>
     </div>
